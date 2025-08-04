@@ -1,36 +1,33 @@
+🛒 Mind Pouch – Lista de Compras Dinâmica
 
-![Descricao da sua imagem](https://imgur.com/C8TfWXc.png)
+Aplicação web desenvolvida como parte prática do curso "JavaScript: Construindo páginas dinâmicas" da Alura. O projeto foi personalizado com novos estilos, fontes, estrutura de dados e melhorias na usabilidade, mantendo uma proposta visual minimalista e moderna.
 
-# Titulo do projeto
+✨ Funcionalidades
 
-Aplicação web de lista de compras para o curso de construção de páginas dinâmicas com JavaScript.
+✅ Adição de itens na lista com nome e data/hora de criação;
+📝 Itens podem ser editados ou excluídos individualmente;
+📅 Registro automático de data e hora ao criar cada item;
+✅ Checkbox para marcar os itens como comprados;
+🎨 Interface redesenhada com paleta personalizada, tipografia moderna e melhor organização visual;
 
-## 🔨 Funcionalidades do projeto
+🛠️ Tecnologias e técnicas utilizadas
 
-A aplicação permite inserir itens em uma lista de forma dinâmica, permitindo a exclusão e edição dos mesmos. Os itens terão o nome e também a data e horário que foram criados. Também é possível selecionar um checkbox para informar que o item foi comprado.
+HTML5: estruturação semântica da interface;
+CSS3: estilização com uso de variáveis, flexbox e responsividade;
+JavaScript (DOM): criação e manipulação de elementos em tempo real, controle de eventos, atualização de dados.
 
-![Inserção no campo de digitação do valor ração de gato, após, é clicado no botão de edição, onde é aberto um popup para digitar o novo do nome item, que foi digitado ração de cachorro. Em seguida, é clicado no botão de exclusão, e o item é excluído.](https://imgur.com/isPj7Xf.gif)
+🎨 Design
 
-## ✔️ Técnicas e tecnologias utilizadas
+- Paleta com base em tons verdes e azuis escuros, transmitindo calma e organização;
+- Layout centralizado, limpo e com foco na acessibilidade visual;
+- Componentes responsivos e organizados com espaçamento consistente.
 
-As técnicas e tecnologias utilizadas pra isso são:
+📷 Prévia do projeto
 
-- `HTML`: criação dos elementos da tela;
-- `CSS`: estilização da aplicação;
-- `JavaScript`: construção de elementos dinâmicos através da manipulação do DOM.
+![Prévia do projeto](./img/Frames/1.png)
 
-## 📁 Acesso ao projeto
+📚 Créditos e base
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/3801-javascript-para-web/tree/projeto-base) ou [baixá-lo](https://github.com/alura-cursos/3801-javascript-para-web/archive/refs/heads/projeto-base.zip).
-
-## 🛠️ Abrir e rodar o projeto
-
-Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, no menu superior, clique em:
-
-- **File** > **Open Folder** (ou alguma opção similar)
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
-- Por fim clique em OK
-
-Ao finalizar esses passos, você pode executar a aplicação com a extensão Live Server 🏆 
+Projeto inspirado no repositório base da Alura: (https://github.com/alura-cursos/3801-javascript-para-web/tree/projeto-base)
 
 
