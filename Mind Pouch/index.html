@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mind Pouch</title>
+  <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <img src="./img/mind-pouch.png" alt="sacola de compras" />
+    <form>
+      <div class="criar-lista">
+        <input class="input-item" id="input-item" type="text" placeholder="Adicionar item a lista" />
+        <button class="button-item" id="adicionar-item" type="button" aria-label="Adicionar item">
+          <svg width="45px" height="45px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path d="M6 12H18M12 6V18" stroke="#fefefe" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </form>
+
+    <div class="container-lista">
+      <div class="lista">
+        <h2>Minha lista</h2>
+        <div class="editar-listas">
+          <div class="botoes-acao">            
+            <button class="button-edit" id="remover-item" type="button" aria-label="Remover da lista">
+              <svg fill="#1d794c" height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 297 297" xml:space="preserve" stroke="#1d794c"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M228.027,33.775h-35.564v-4.723C192.462,13.032,179.429,0,163.409,0h-29.82c-16.02,0-29.052,13.032-29.052,29.052v4.723 H68.973c-17.596,0-31.912,14.316-31.912,31.912v18.658c0,5.646,4.578,10.224,10.224,10.224h7.462L68.641,261.3 c1.668,20.019,18.711,35.7,38.799,35.7h82.119c20.088,0,37.131-15.681,38.799-35.7l13.894-166.73h7.462 c5.646,0,10.224-4.578,10.224-10.224V65.688C259.939,48.092,245.623,33.775,228.027,33.775z M124.985,29.052 c0-4.744,3.86-8.604,8.604-8.604h29.82c4.745,0,8.605,3.86,8.605,8.604v4.723h-47.029V29.052z M207.981,259.602 c-0.792,9.505-8.884,16.95-18.422,16.95H107.44c-9.538,0-17.63-7.445-18.422-16.95L75.265,94.57h146.469L207.981,259.602z M239.492,74.123H57.509v-8.435c0-6.322,5.143-11.465,11.465-11.465h159.053c6.322,0,11.465,5.143,11.465,11.465V74.123z"></path> </g> </g> </g></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <ul id="lista-de-compras"></ul>
+    </div>
+  </main>
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
